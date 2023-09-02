@@ -3,7 +3,7 @@ Road building programme
 
 Algorithm of the programme:
 
-1 Loading data from the road.shp file.
+1. Loading data from the road.shp file.
 
 2. Copying coordinates of points to DataFrame Points_lines.
 
