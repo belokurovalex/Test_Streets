@@ -19,7 +19,7 @@ For this purpose, the number of points with the same coordinates is determined s
   - If there are three points, it is a T-junction. To decide which road is a dead end, the angles between the three vectors containing that point are calculated. 
     The vector with the largest angles is a dead end.
   - If there are four points, it is the intersection of two roads. To determine whether each of the four segments belongs to two roads, the angles between the           vectors are calculated. The segments with the smallest angles belong to one road.
-  - 
+     
 Indices are written in the fields 'index_point_1', 'index_point_2'.
 
 5. Display the roads on the plot. Each road is drawn in a different colour. The colours may be repeated. 
